@@ -3,7 +3,7 @@ function createLateralNavBar(){
     const hamburgerIcon = document.querySelector(".nav__hamburgerMenu");
     const closeIconTag  = document.createElement("img");
     closeIconTag.classList.add("close__icon");
-    closeIconTag.setAttribute("src", "../docs/assets/shared/icon-close.svg");
+    closeIconTag.setAttribute("src", "/docs/assets/shared/icon-close.svg");
 
     const bodyTag   = document.getElementById("bodyTag");
     const headerTag = document.querySelector(".nav");

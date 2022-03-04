@@ -11,8 +11,11 @@ function onMouseNav() {
         navList.forEach((element, index) => {
             var navText = element.querySelector(".nav__options__list__item__text");
             var underLine = element.querySelector(".subLine");
+            console.log("underLine = " + underLine);
             var actualUnderLine = navList[actualLocation];
+            console.log("actualUnderLine = " + actualUnderLine);
             var underLine2 = actualUnderLine.querySelector(".subLine");
+            console.log("underLine2 = " + underLine2);
             underLine2.style.visibility = "visible";
     
             element.onmouseover = function () {
