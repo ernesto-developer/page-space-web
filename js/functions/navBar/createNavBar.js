@@ -5,18 +5,9 @@ import createLateralNavBar from "./navBarLateral.js";
 
 function createNavBar(){
 
-const location = new Locations();
-const actualLocation = location.locationPrincipalsPages();
-console.log(actualLocation);
-
-// const routesPagesHome = ["index.html","/starter-code/destination-moon.html","/starter-code/crew-commander.html","/starter-code/technology-vehicle.html"];
 const routesPages = ["index.html","destination-moon.html","crew-commander.html","technology-vehicle.html"];
-// var pageController;
-    
 const pageController = new PageController( routesPages,".nav__options__link__nav"); 
     
-
-
 const listOptionsNav = [" Home"," Destination"," Crew"," Technology"];
 const listNumbers = ["00","01","02","03"];
 

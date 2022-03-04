@@ -8,12 +8,7 @@ function createLateralNavBar(){
     const bodyTag   = document.getElementById("bodyTag");
     const headerTag = document.querySelector(".nav");
     const navBar    = document.getElementById("nav-option");
-    //onsole.log(bodyTag);
-    //console.log(headerTag);
-    //console.log(navBar);
- 
-    console.log(headerTag);
-    console.log(navBar);
+   
 
     window.addEventListener("resize",function () {
 

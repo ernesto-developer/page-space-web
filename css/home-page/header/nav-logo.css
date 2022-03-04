@@ -3,3 +3,6 @@
     height: 48px;
     background-image: url(../../../docs/assets/shared/logo.svg);background-repeat: no-repeat;background-size: cover;
 }
+.nav__logo{
+    background-image: url();
+}
