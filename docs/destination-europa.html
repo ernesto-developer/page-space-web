@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="/css/normailzer.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/home-page/header/nav.css">
+  <link rel="stylesheet" href="/css/home-page/header/nav-logo.css">
+  <link rel="stylesheet" href="/css/home-page/header/nav-centerLine.css">
+  <link rel="stylesheet" href="/css/home-page/header/nav-options.css">
+  <link rel="stylesheet" href="/css/home-page/header/nav-options-list.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bellefair&display=swap" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="../css/destination-page/main/subtitle/subtitle.css">
+  <link rel="stylesheet" href="../css/destination-page/main/destination-section.css">
+  <link rel="stylesheet" href="../css/destination-page/destination-data/destination-data.css">
+  <link rel="stylesheet" href="../css/destination-page/main/destination-img/destination-img.css">
+  <link rel="stylesheet" href="../css/destination-page/destination-data/destination-nav.css">
+  <link rel="stylesheet" href="../css/destination-page/destination-data/destination-title.css">
+  <link rel="stylesheet" href="../css/destination-page/destination-data/destination-info.css">
+  <link rel="stylesheet" href="../css/destination-page/destination-data/destination-underLine.css">
+  <link rel="stylesheet" href="../css/destination-page/destination-data/destination-distance.css">
+  <link rel="stylesheet" href="/css/destination-page/main/destination-main.css">
+
+  <link rel="stylesheet" href="../css/destination-page/body/backGround.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="backGround-destination" id="bodyTag">
+
+  <header class="nav">
+    <div class="nav__logo"></div>
+    <div class="nav__options" id="nav-option">  
+        <ul class="nav__options__list" id="nav--options--list"></ul>
+    </div>
+    <div class="nav__centerLine"></div>
+    <div class="nav__hamburgerMenu"></div>
+</header>
+<main class="destination__main">
+
+  <div class="subtitle">
+    <h2 class="subtitle__text" id="steps-to-travel"></h2>
+  </div>
+
+  <section class="destination">
+
+    <div class="destination__img" id="destination-img"></div>
+
+    <div class="destination__data">
+
+      <div class="destination__data__nav">
+        <ul class="destination__data__nav__group" id="destination--data--list"></ul>
+      </div>
+
+      <div class="destination__data__title" id="destination-name"></div>
+
+      <div class="destination__data__info" id="destination-description"></div>
+
+      <div class="destination__data__line"></div>
+
+      <div >
+        <ul class="destination__data__infoTravel">
+          <li class="destination__data__infoTravel__itmes">
+           
+              <p class="destination__data__itemText">Avg. distance</p>
+              <p class="destination__data__itemNumber" id="destiantion-distance"></p>
+             
+          </li>
+          <li class="destination__data__infoTravel__itmes">
+          
+              <p class="destination__data__itemText">Est. travel time</p>
+              <p class="destination__data__itemNumber" id="destination-travel"></p>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+</body>
+<script type="module" src="../js/destiation/destination.js"></script>
+
+</html>

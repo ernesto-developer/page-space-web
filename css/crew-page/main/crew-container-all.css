@@ -1,0 +1,14 @@
+.crew__Container__all{
+
+    display: flex;
+    justify-content: space-between;
+    height: 89%;
+
+}
+
+@media (max-width:400px){
+    .crew__Container__all{
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+@media (max-width:400px){
+
+    .destination__main{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: center;
+        /* background-color: red; */
+    }
+}

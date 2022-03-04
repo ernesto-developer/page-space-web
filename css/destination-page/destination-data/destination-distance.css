@@ -1,0 +1,58 @@
+.destination__data__infoTravel{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+   
+
+
+}
+
+.destination__data__infoTravel__itmes{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 61px;
+
+margin-right: 3rem;
+
+}
+.destination__data__itemText{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+.destination__data__itemNumber{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+@media (max-width:400px){
+
+    .destination__data__itemText{
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+    }
+    .destination__data__itemNumber{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .destination__data__infoTravel{
+        flex-direction: column;
+        margin-bottom: 30px;
+        /* height: 259px; */
+        /* justify-content: center; */
+        
+    }
+    .destination__data__infoTravel__itmes{
+        margin-right: 0px;
+        margin-top: 1rem;
+    }
+}

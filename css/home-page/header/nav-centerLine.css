@@ -1,0 +1,14 @@
+.nav__centerLine{
+    width: 34%;
+    height: 1px;
+    position: absolute;
+    margin-right: 47%;
+    background-color: rgba(151,151,151,0.2);
+
+
+}
+@media (max-width:400px){
+    .nav__centerLine{
+        display: none;
+    }
+}

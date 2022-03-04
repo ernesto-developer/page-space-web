@@ -1,0 +1,33 @@
+.nav__options{
+    width: 59%;
+    height: 100%;
+    margin: auto 0 auto auto;
+    background-color: rgba(151,151,151,0.1);
+    backdrop-filter: blur(15px); 
+}
+
+@media (max-width:400px){
+    .nav__options{
+        width: 65%;
+        display: flex;
+        position: absolute;
+        margin-left: 35%;
+        backdrop-filter: blur(40px);
+        
+    }
+
+    .nav__hamburgerMenu{
+
+    width: 24px;
+    height: 21px;
+    background-image: url("../../../docs/assets/shared/icon-hamburger.svg");
+
+    }
+
+    .close__icon{
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        margin: 30px 10px 0px 80%;
+    }
+}

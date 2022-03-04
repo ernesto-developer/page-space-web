@@ -1,0 +1,16 @@
+.intro__info{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+@media (max-width:400px){
+
+    .intro__info{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}

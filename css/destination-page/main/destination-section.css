@@ -1,0 +1,17 @@
+.destination{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 97px;
+
+}
+
+@media (max-width:400px){
+
+    .destination{
+        flex-direction: column;
+        margin-top: 28px;
+    }
+
+}

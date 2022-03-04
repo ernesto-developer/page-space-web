@@ -1,0 +1,13 @@
+.intro__title{
+    color: #ffffff;
+    font-size: 150px;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px){
+    .intro__title{
+        font-size: 80px;
+        line-height: 100px;
+    }
+}

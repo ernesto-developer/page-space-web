@@ -1,0 +1,17 @@
+.explore{
+    border-radius: 100%;
+    width: 274px;
+    height: 274px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:400px){
+    .explore{
+        width: 150px;
+        height: 150px;
+        margin-top: 5rem;
+    }
+}

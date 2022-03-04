@@ -1,0 +1,29 @@
+.crew__img{
+  /* margin-top: 76px; */
+  /* height: 712px; */
+  /* vertical-align: ; */
+  margin-right: 10%;
+  align-self: flex-end;
+  
+  /* height: 100; */
+}
+
+
+@media (max-width:400px){
+
+  .crew__img{
+    width: 177px;
+    height: 222px;
+    background-size: cover;
+    align-self: center;
+    margin: 0px;
+  }
+  .crew__img__underline{
+    background-color: #383B4B;
+    height: 1px;
+    width: 90%;
+    margin-top: -1px;
+    text-align: center;
+    border: 0px;
+  }
+}

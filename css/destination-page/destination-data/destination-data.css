@@ -1,0 +1,17 @@
+.destination__data{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 445px;
+    height:  472px;
+    
+}
+@media (max-width:400px){
+    .destination__data{
+        /* background-color: red; */
+        width: 90%;
+        text-align: center;
+        
+    }
+}

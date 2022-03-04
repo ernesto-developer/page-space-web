@@ -1,0 +1,24 @@
+.destination__data__info{
+
+    font-family: 'Barlow Condensed', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 178%;
+    margin-bottom: 10px;
+    flex-grow: .1;
+
+
+    color: #d0d6f9;
+    /* background-color: rgba(255, 255,100,.5); */
+}
+
+@media (max-width:400px){
+    .destination__data__info{
+
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+}

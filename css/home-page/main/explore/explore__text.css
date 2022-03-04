@@ -1,0 +1,17 @@
+.explore__text{
+    
+    font-family: 'Bellefair', serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0B0D17;
+}
+
+@media (max-width:400px){
+
+    .explore__text{
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+}

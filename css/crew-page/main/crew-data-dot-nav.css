@@ -1,0 +1,33 @@
+.crew__data__dotNav{
+    width: fit-content;
+}
+.crew__data__dotNav__group{
+   /* background-color: rgba(255, 0, 0, .4); */
+    display: flex;
+    justify-content: space-between;
+    width: 9em;
+}
+
+
+.crew__data__dotNav__dot{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #fff;
+    opacity: 0.1;
+}
+
+@media (max-width:400px){
+    .crew__data__dotNav{
+        align-self: center;
+        margin: 32px 0px;
+    }
+    .crew__data__dotNav__dot{
+        width: 10px;
+        height: 10px;
+    }
+    .crew__data__dotNav__group{
+        width: 88px;
+        height: 10px;
+    }
+}

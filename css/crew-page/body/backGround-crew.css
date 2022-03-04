@@ -1,0 +1,14 @@
+.backGround-crew{
+    width: 100%;
+    height: 900px;
+    background-image: url("../../../docs/assets/crew/background-crew-desktop.jpg");background-repeat: no-repeat;background-size: cover;
+}
+
+@media (max-width:400px){
+    .backGround-crew{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-image: url("../../../docs/assets/crew/background-crew-mobile.jpg") no-repeat cover cover fixed;
+    }
+}
